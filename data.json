@@ -1,0 +1,93 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "admin",
+            "role": "admin"
+        }
+    ],
+    "vehicles": [
+        {
+            "id": 1,
+            "nome": "Uno",
+            "marca": "fiat",
+            "ano": "2010",
+            "placa": "Erfte1",
+            "disponivel": false
+        },
+        {
+            "id": 2,
+            "nome": "Uno",
+            "marca": "Volvo",
+            "ano": "2010",
+            "placa": "Erfte3",
+            "disponivel": false
+        },
+        {
+            "id": 3,
+            "nome": "Uno",
+            "marca": "Saveiro",
+            "ano": "2010",
+            "placa": "Erft4",
+            "disponivel": false
+        }
+    ],
+    "rentals": [
+        {
+            "rental_id": 1,
+            "vehicle_id": 1,
+            "nome_cliente": "",
+            "user_alugou": "admin",
+            "cpf": "71040509495",
+            "whatsapp": "879811473819",
+            "dias": 3,
+            "valor_por_dia": 150.0,
+            "valor_total": 450.0,
+            "data_retirada": "2025-01-13T12:32:42.081006",
+            "data_devolucao_estimada": "2025-01-16T12:32:42.081006",
+            "data_devolucao_efetiva": "2025-01-13T18:29:26.868520"
+        },
+        {
+            "rental_id": 2,
+            "vehicle_id": 2,
+            "nome_cliente": "arcelino",
+            "user_alugou": "admin",
+            "cpf": "8745756496747",
+            "whatsapp": "9789567885",
+            "dias": 4,
+            "valor_por_dia": 150.0,
+            "valor_total": 600.0,
+            "data_retirada": "2025-01-13T14:21:03.115034",
+            "data_devolucao_estimada": "2025-01-17T14:21:03.115034",
+            "data_devolucao_efetiva": null
+        },
+        {
+            "rental_id": 3,
+            "vehicle_id": 3,
+            "nome_cliente": "gbe",
+            "user_alugou": "admin",
+            "cpf": "vgffdb",
+            "whatsapp": "dgb",
+            "dias": 3,
+            "valor_por_dia": 150.0,
+            "valor_total": 450.0,
+            "data_retirada": "2025-01-13T14:22:08.860455",
+            "data_devolucao_estimada": "2025-01-16T14:22:08.860455",
+            "data_devolucao_efetiva": null
+        },
+        {
+            "rental_id": 4,
+            "vehicle_id": 1,
+            "nome_cliente": "arcelino",
+            "user_alugou": "admin",
+            "cpf": "0000000000",
+            "whatsapp": "0000000000",
+            "dias": 3,
+            "valor_por_dia": 150.0,
+            "valor_total": 450.0,
+            "data_retirada": "2025-01-13T18:30:01.774595",
+            "data_devolucao_estimada": "2025-01-16T18:30:01.774595",
+            "data_devolucao_efetiva": null
+        }
+    ]
+}
